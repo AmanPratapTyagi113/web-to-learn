@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Events</title>
+</head>
+<body>
+    
+    <!-- <button onclick="alert('The button is clicked')">Click Me</button>
+
+    <h1 onmouseover="alert('The h1 tag is hovered')">Hover Me</h1>
+
+    <input type="text" onkeyup="alert('the input text is changed')"> -->
+
+    <!-- <form action=" " onsubmit="alert('The form is submited')">
+         
+        <input type="text">
+
+        <input type="submit" value="submit">
+    </form> -->
+     
+    <button id="btn">Click Me</button>
+</body>
+</html>
+
+<script>
+
+    document.getElementById('btn').onclick=btnclick;
+    function btnclick()
+    {
+        alert('The button is clicked')
+    }
+
+</script>

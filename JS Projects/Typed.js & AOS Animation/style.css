@@ -1,0 +1,16 @@
+body{
+    background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);
+}
+h1{
+    background-color: rgb(172 246 255);
+    margin-top: 50px !important;
+    padding: 10px;
+    border-radius: 8px;
+    font-weight: bolder !important;
+}
+img{
+    margin-top: 30px;
+    height: 500px !important;
+    border-radius: 15px!important;
+   
+}

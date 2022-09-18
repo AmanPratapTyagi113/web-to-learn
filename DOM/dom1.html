@@ -1,0 +1,33 @@
+<html>
+    <head>
+         <title>
+            HTML Access in JS
+         </title>
+    </head>
+    <body>
+        <h1 id="mytext1">This is first h1 tag</h1>
+
+        <h1 class="mytext2">This is first h1 tag</h1>
+        <h1 class="mytext2">This is second h1 tag</h1>
+
+        <!-- <h1 name="mytext3">This is h1 tag</h1>  -->
+        <!-- the name atribute is only work for input element  -->
+
+        <h1 name="mytext3">This is h1 tag</h1>
+
+    </body>
+</html>
+
+<script>
+
+    var x = document.getElementById('mytext1')
+    x.innerHTML='The first h1 tag is accessed using id atribute' 
+
+    var y = document.getElementsByClassName('mytext2')
+    y[0].innerHTML='The FIRST h1 tag is accessed using class atribute'
+    y[1].innerHTML='The SECOND h1 tag is accessed using class atribute'
+
+    var z = document.getElementsByTagName("h1") 
+    z[3].innerHTML='The h1 tag is accessed using Tag atribute' 
+
+</script>

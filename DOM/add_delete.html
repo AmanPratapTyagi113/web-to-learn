@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add, Delete Elements</title>
+</head>
+<body>
+
+    <div id="maindiv">
+
+        <h1>This is first Element</h1>
+        <h1 id="secondh1">This is second Element</h1>
+
+    </div>
+    
+</body>
+</html>
+
+<script>
+
+    var maindiv=document.getElementById('maindiv')
+
+    var newh1=document.createElement('h1')
+
+    var newh1text=document.createTextNode('This is third Element')
+    newh1.appendChild(newh1text)
+    maindiv.appendChild(newh1)
+   
+
+
+    var secondh1=document.getElementById('secondh1')
+    maindiv.removeChild(secondh1)
+</script>
