@@ -5,18 +5,41 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Popup Boxes</title>
+    <link rel="icon" type="image/png" href="https://www.google.com/s2/favicons?domain=css-tricks.com">
+    <link rel="stylesheet" href="../style.css" type="text/css">
 </head>
 <body>
     
-    <button onclick="openalert()">Open alert popup</button>
+    <button style="color:blue; font-size:20px;" onclick="openalert()">Open alert popup</button>
 
-    <button onclick="openprompt()">Open prompt popup</button>
+    <button style="color:blue; font-size:20px;" onclick="openprompt()">Open prompt popup</button>
 
-    <button onclick="openconfirm()">Open confirm popup</button>
+    <button style="color:blue; font-size:20px;" onclick="openconfirm()">Open confirm popup</button>
+     
+    <!DOCTYPE html>
+
+    <p style="color:brown; font-size: 30px;">JavaScript has three kind of popup boxes: Alert box, Confirm box, and Prompt box.</p>
+
+    <h1>Alert Popup</h1>
+    <p>An alert box is often used if you want to make sure information comes through to the user.
+
+        When an alert box pops up, the user will have to click "OK" to proceed.</p>
+    
+    <h1>Prompt Popup</h1>
+    <p>A prompt box is often used if you want the user to input a value before entering a page.
+
+        When a prompt box pops up, the user will have to click either "OK" or "Cancel" to proceed after entering an input value.
+        
+        If the user clicks "OK" the box returns the input value. If the user clicks "Cancel" the box returns null.</p>
+    
+    <h1>Confirm popup</h1>
+    <p>A confirm box is often used if you want the user to verify or accept something.
+
+        When a confirm box pops up, the user will have to click either "OK" or "Cancel" to proceed.
+        
+        If the user clicks "OK", the box returns true. If the user clicks "Cancel", the box returns false.</p>
 
 
-</body>
-</html>
 
 <script>
 

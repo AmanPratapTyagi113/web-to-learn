@@ -1,5 +1,5 @@
 var typed = new Typed('#mytext', {
-    strings: ['Welcome !', 'Wed Development Lessons'],
+    strings: ['Welcome !', 'Web Development Lessons'],
     typeSpeed: 100
 })
 
